@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="The Flywheel Model" />
+              <option name="title_text" value="Basics of PLG" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -1529,7 +1529,7 @@
       <links>
         <slidelink slideid="_player.5zOHsNjcsp2" displaytext="Intro tablette" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.5zOHsNjcsp2.5rxwNwiLAQ8" displaytext="fltwheel" expand="false" type="slide" />
+            <slidelink slideid="_player.5zOHsNjcsp2.6YgQzxksjPl" displaytext="PROCESS INTERACTION" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
