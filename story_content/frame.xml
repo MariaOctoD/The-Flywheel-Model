@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00000100101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="true" outputtype="undefined" theme="unified" themeAccentColor="0x1CD2AD">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns10110000001" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x1CD2AD">
   <layouts>
-    <layout name="npnxnanbsnfns00000100101" font="Lato" controllayout="npnxnanbsnfns00000100101" colorscheme="pxabnsnfns00000100101" string_table="pxabnsnfns00000100101" />
-    <layout name="pxabnsnfns00000100101" font="Lato" controllayout="pxabnsnfns00000100101" colorscheme="pxabnsnfns00000100101" string_table="pxabnsnfns00000100101" />
-    <layout name="npxnabnsnfns00000100101" font="Lato" controllayout="npxnabnsnfns00000100101" colorscheme="pxabnsnfns00000100101" string_table="pxabnsnfns00000100101" />
-    <layout name="npnxnanbnsnfns00000100101" font="Lato" controllayout="npnxnanbnsnfns00000100101" colorscheme="pxabnsnfns00000100101" string_table="pxabnsnfns00000100101" />
-    <layout name="pxabnsnfns00000100100" font="Lato" controllayout="pxabnsnfns00000100100" colorscheme="pxabnsnfns00000100101" string_table="pxabnsnfns00000100101" />
+    <layout name="npnxnanbsnfns10110000001" font="Lato" controllayout="npnxnanbsnfns10110000001" colorscheme="npnxnanbnsnfns10110000001" string_table="npnxnanbnsnfns10110000001" />
+    <layout name="pxabnsnfns10110000001" font="Lato" controllayout="pxabnsnfns10110000001" colorscheme="npnxnanbnsnfns10110000001" string_table="npnxnanbnsnfns10110000001" />
+    <layout name="npxnabnsnfns10110000001" font="Lato" controllayout="npxnabnsnfns10110000001" colorscheme="npnxnanbnsnfns10110000001" string_table="npnxnanbnsnfns10110000001" />
+    <layout name="npnxnanbnsnfns10110000001" font="Lato" controllayout="npnxnanbnsnfns10110000001" colorscheme="npnxnanbnsnfns10110000001" string_table="npnxnanbnsnfns10110000001" />
+    <layout name="pxabnsnfns10110000000" font="Lato" controllayout="pxabnsnfns10110000000" colorscheme="npnxnanbnsnfns10110000001" string_table="npnxnanbnsnfns10110000001" />
   </layouts>
   <control_options>
     <optiongroups>
       <optiongroup name="sidebaroptions">
         <options>
-          <option name="title_enabled" value="true">
+          <option name="title_enabled" value="false">
             <options>
               <option name="title_text" value="The Flywheel Model" />
             </options>
@@ -27,7 +27,7 @@
           </option>
           <optionlist name="tabs">
             <listitems>
-              <listitem name="resources" value="true" group="linkright" />
+              <listitem name="resources" value="false" group="linkright" />
               <listitem name="outline" value="false" group="sidebar" />
               <listitem name="glossary" value="false" group="sidebar" />
               <listitem name="transcript" value="false" group="sidebar" />
@@ -58,22 +58,22 @@
       </optiongroup>
       <optiongroup name="controls">
         <options>
-          <option name="volume" value="true" />
-          <option name="seekbar" value="false">
+          <option name="volume" value="false" />
+          <option name="seekbar" value="true">
             <options>
               <option name="readonly" value="false" />
               <option name="readonlyOnce" value="false" />
             </options>
           </option>
-          <option name="pauseplay" value="false" />
-          <option name="replay" value="false" />
+          <option name="pauseplay" value="true" />
+          <option name="replay" value="true" />
           <option name="search" value="false" />
-          <option name="closed_captions" value="true">
+          <option name="closed_captions" value="false">
             <options>
               <option name="font" value="Lato" />
             </options>
           </option>
-          <option name="settings" value="true" />
+          <option name="settings" value="false" />
         </options>
       </optiongroup>
       <optiongroup name="bottombaroptions">
@@ -91,11 +91,11 @@
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns00000100101">
-      <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="false" />
-      <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="false" />
+    <control_layout name="npnxnanbsnfns10110000001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="false" />
@@ -104,7 +104,7 @@
       <control name="submit" enabled="true" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="false">
@@ -114,11 +114,11 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00000100101">
-      <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="false" />
-      <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="false" />
+    <control_layout name="pxabnsnfns10110000001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="true" />
       <control name="next" enabled="true" />
@@ -127,7 +127,7 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="false">
@@ -137,11 +137,11 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns00000100101">
-      <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="false" />
-      <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="false" />
+    <control_layout name="npxnabnsnfns10110000001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="true" />
@@ -150,7 +150,7 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="false">
@@ -160,11 +160,11 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns00000100101">
-      <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="false" />
-      <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="false" />
+    <control_layout name="npnxnanbnsnfns10110000001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="false" />
@@ -173,7 +173,7 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="false">
@@ -183,11 +183,11 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00000100100">
-      <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="false" />
-      <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="false" />
+    <control_layout name="pxabnsnfns10110000000">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="true" />
       <control name="next" enabled="true" />
@@ -196,7 +196,7 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="true" />
+      <control name="resources" enabled="false" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="false">
@@ -208,7 +208,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="pxabnsnfns00000100101">
+    <colorscheme name="npnxnanbnsnfns10110000001">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1386,7 +1386,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="pxabnsnfns00000100101">
+    <string_table name="npnxnanbnsnfns10110000001">
       <string id="three_image_progress_audio">progress</string>
       <string id="three_image_audio">audio</string>
       <string id="three_image_camera_down">camera moved down</string>
@@ -1425,6 +1425,15 @@
       <string id="accessible_text">Accessible text</string>
       <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
       <string id="zoom_to_fit">Zoom to fit</string>
+      <string id="acc_modern_video_captions">video captions</string>
+      <string id="acc_modern_video_mute">mute video</string>
+      <string id="acc_modern_video_pause">pause video</string>
+      <string id="acc_modern_video_pip">Picture-in-Picture</string>
+      <string id="acc_modern_video_play">play video</string>
+      <string id="modern_video_playback_settings">playback settings</string>
+      <string id="acc_modern_video_playback_speed">Playback speed</string>
+      <string id="acc_modern_video_settings">video settings</string>
+      <string id="acc_modern_video_volume">video volume</string>
       <string id="acc_active">active</string>
       <string id="alt_key">Alt</string>
       <string id="check_include">Check to include</string>
@@ -1464,6 +1473,13 @@
       <string id="disabled_orientation">Please rotate your device</string>
       <string id="progress_minute">minute</string>
       <string id="progress_minutes">minutes</string>
+      <string id="acc_modern_video_fullscreen">fullscreen</string>
+      <string id="modern_video_captions_label">captions</string>
+      <string id="modern_video_captions_off">off</string>
+      <string id="modern_video_captions_on">on</string>
+      <string id="modern_video_normal_speed">Normal</string>
+      <string id="modern_video_playback_speed_title">Playback speed</string>
+      <string id="modern_video_settings_close">close video settings</string>
       <string id="mute_tip">Mute</string>
       <string id="next">NEXT</string>
       <string id="acc_next">next</string>
@@ -1535,7 +1551,7 @@
       </links>
     </outline>
   </nav_data>
-  <resource_data description="&lt;p align='left'&gt;&lt;font face='Lato' style='font-size: 11px;' size='11' color='#464646'&gt;Voici quelques liens et documents utiles&amp;#160;:&lt;/font&gt;&lt;/p&gt;" />
+  <resource_data description="" />
   <transcript_data />
   <glossary_data />
 </bwFrame>
